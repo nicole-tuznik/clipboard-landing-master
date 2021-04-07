@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Frontend Mentor | Clipboard landing page</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-content container">
+        <img
+          src="/images/logo.svg"
+          alt="Clipboard logo"
+          class="header-content__logo"
+        />
+        <h1 class="header-content__title">A history of everything you copy</h1>
+        <p class="header-content__text">
+          Clipboard allows you to track and organize everything you copy.
+          Instantly access your clipboard on all your devices.
+        </p>
+        <div class="header-content__buttons buttons">
+          <button class="header-content__btn btn cyan-btn">
+            Download for iOS
+          </button>
+          <button class="header-content__btn btn purple-btn">
+            Download for Mac
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <div class="snippets container">
+      <h2 class="snippets__title">Keep track of your snippets</h2>
+      <div class="snippets__text">
+        Clipboard instantly stores any item you copy in the cloud, meaning you
+        can access your snippets immediately on all your devices. Our Mac and
+        iOS apps will help you organize everything.
+      </div>
+      <div class="snippets__grid">
+        <img
+          src="/images/image-computer.png"
+          alt="Computer"
+          class="snippets__img"
+        />
+        <div class="snippets__section">
+          <h3 class="snippets__subtitle">Quick Search</h3>
+          Easily search your snippets by content, category, web address,
+          application, and more.
+        </div>
+        <div class="snippets__section">
+          <h3 class="snippets__subtitle">iCloud Sync</h3>
+          <p class="snippets__text">
+            Instantly saves and syncs snippets across all your devices.
+          </p>
+        </div>
+        <div class="snippets__section">
+          <h3 class="snippets__subtitle">Complete History</h3>
+          <p class="snippets__text">
+            Retrieve any snippets from the first moment you started using the
+            app.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="access container">
+      <h2 class="access__title">Access Clipboard anywhere</h2>
+      <div class="access__text">
+        Whether you’re on the go, or at your computer, you can access all your
+        Clipboard snippets in a few simple clicks.
+      </div>
+      <img
+        src="/images/image-devices.png"
+        alt="Phone and tablet devices"
+        class="access__img"
+      />
+    </div>
+
+    <div class="supercharge container">
+      <h2 class="supercharge__title">Supercharge your workflow</h2>
+      <p class="supercharge__text">
+        We’ve got the tools to boost your productivity.
+      </p>
+      <div class="supercharge__grid">
+        <div class="supercharge__section">
+          <img
+            src="/images/icon-blacklist.svg"
+            alt="Document image"
+            class="supercharge__section-img"
+          />
+          <h3 class="supercharge__section-title">Create blacklists</h3>
+          <p class="supercharge__section-text">
+            Ensure sensitive information never makes its way to your clipboard
+            by excluding certain sources.
+          </p>
+        </div>
+        <div class="supercharge__section">
+          <img
+            src="/images/icon-text.svg"
+            alt="Typing text"
+            class="supercharge__section-img"
+          />
+          <h3 class="supercharge__section-title">Plain text snippets</h3>
+          <p class="supercharge__section-text">
+            Remove unwanted formatting from copied text for a consistent look.
+          </p>
+        </div>
+        <div class="supercharge__section">
+          <img
+            src="/images/icon-preview.svg"
+            alt="Open eye"
+            class="supercharge__section-img"
+          />
+          <h3 class="supercharge__section-title">Sneak preview</h3>
+          <p class="supercharge__section-text">
+            Quick preview of all snippets on your Clipboard for easy access.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="companies container">
+      <img
+        src="/images/logo-google.png"
+        alt="Google logo"
+        class="companies__logo"
+      />
+      <img src="/images/logo-ibm.png" alt="IBM logo" class="companies__logo" />
+      <img
+        src="/images/logo-microsoft.png"
+        alt="Microsoft logo"
+        class="companies__logo"
+      />
+      <img
+        src="/images/logo-hp.png"
+        alt="Hewlett Packard logo"
+        class="companies__logo"
+      />
+      <img
+        src="/images/logo-vector-graphics.png"
+        alt="Vector Graphics logo"
+        class="companies__logo"
+      />
+    </div>
+
+    <div class="clipboard container">
+      <h2 class="clipboard__title">Clipboard for iOS and Mac OS</h2>
+      <p class="clipboard__text">
+        Available for free on the App Store. Download for Mac or iOS, sync with
+        iCloud and you’re ready to start adding to your clipboard.
+      </p>
+      <div class="clipboard__buttons buttons">
+        <button class="clipboard__btn btn cyan-btn">Download for iOS</button>
+        <button class="clipboard__btn btn purple-btn">Download for Mac</button>
+      </div>
+    </div>
+
+    <footer class="footer container">
+      <div class="footer-content">
+        <img
+          src="/images/logo.svg"
+          alt="Clipboard logo"
+          class="footer-content__logo"
+        />
+        <ul class="footer-content__links">
+          <li class="footer-content__li"><a>FAQs</a></li>
+          <li class="footer-content__li"><a>Contact Us</a></li>
+          <li class="footer-content__li"><a>Privacy Policy</a></li>
+          <li class="footer-content__li"><a>Press Kit</a></li>
+          <li class="footer-content__li"><a>Install Guide</a></li>
+        </ul>
+        <div class="footer-content__socials">
+          <i class="fab fa-facebook-square fa-2x footer-content__social"></i>
+          <i class="fab fa-twitter fa-2x footer-content__social"></i>
+          <i class="fab fa-instagram fa-2x footer-content__social"></i>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

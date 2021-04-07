@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  text-align: center;
+  font-size: 18px;
+  color: #9fabb2;
+  line-height: 1.5; }
+
+h1,
+h2,
+h3 {
+  color: #4c545d; }
+
+h3 {
+  font-size: 27px; }
+
+.buttons {
+  display: flex;
+  flex-direction: column; }
+
+.btn {
+  padding: 1rem 0;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: inherit;
+  color: #fff;
+  margin: 1rem 0;
+  outline: none;
+  border: none;
+  border-radius: 30px; }
+
+.cyan-btn {
+  background: #26baa4;
+  box-shadow: 2px 2px 2px 2px #177265; }
+
+.purple-btn {
+  background: #6173ff;
+  box-shadow: 2px 2px 2px 2px #3a4bcf; }
+
+.container {
+  padding: 0 2rem; }
+
+.header {
+  background: url(/images/bg-header-mobile.png) top/cover no-repeat;
+  padding: 6rem 0; }
+
+.header-content__title {
+  font-size: 2rem;
+  padding: 2rem 0 1rem 0; }
+
+.header-content__text {
+  padding-bottom: 2rem; }
+
+.snippets {
+  margin-bottom: 8rem; }
+  .snippets__text {
+    padding: 1rem 0 3rem 0; }
+  .snippets__img {
+    width: 100%;
+    padding-bottom: 3rem; }
+
+.access__img {
+  width: 100%;
+  padding: 2rem 0 4rem 0; }
+
+.access__text {
+  padding-top: 1rem; }
+
+.supercharge {
+  margin-bottom: 5rem; }
+  .supercharge__text {
+    margin: 1rem 0 3rem 0; }
+  .supercharge__section {
+    padding: 2rem 0; }
+    .supercharge__section-img {
+      padding-bottom: 2rem; }
+    .supercharge__section-title {
+      padding-bottom: 1rem; }
+
+.companies {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .companies__logo {
+    width: 40%;
+    padding: 2rem 0; }
+
+.clipboard {
+  padding-bottom: 10rem; }
+  .clipboard__text {
+    padding: 1rem 0 2rem 0; }
+
+.footer {
+  background: #9fabb2; }
+
+.footer-content {
+  color: #4c545d;
+  padding: 3rem 0; }
+  .footer-content__logo {
+    width: 20%;
+    padding-bottom: 2rem; }
+  .footer-content__li {
+    list-style: none;
+    padding: 1rem 0; }
+  .footer-content__social {
+    padding: 2rem 1rem; }

@@ -25,7 +25,7 @@
   </head>
   <body>
     <header class="header">
-      <div class="header-content container">
+      <div class="header-content mobile-container desk-container">
         <img
           src="/images/logo.svg"
           alt="Clipboard logo"
@@ -47,7 +47,7 @@
       </div>
     </header>
 
-    <div class="snippets container">
+    <div class="snippets mobile-container">
       <h2 class="snippets__title">Keep track of your snippets</h2>
       <div class="snippets__text">
         Clipboard instantly stores any item you copy in the cloud, meaning you
@@ -55,33 +55,39 @@
         iOS apps will help you organize everything.
       </div>
       <div class="snippets__grid">
-        <img
-          src="/images/image-computer.png"
-          alt="Computer"
-          class="snippets__img"
-        />
-        <div class="snippets__section">
-          <h3 class="snippets__subtitle">Quick Search</h3>
-          Easily search your snippets by content, category, web address,
-          application, and more.
+        <div class="snippets__img-container">
+          <img
+            src="/images/image-computer.png"
+            alt="Computer"
+            class="snippets__img"
+          />
         </div>
-        <div class="snippets__section">
-          <h3 class="snippets__subtitle">iCloud Sync</h3>
-          <p class="snippets__text">
-            Instantly saves and syncs snippets across all your devices.
-          </p>
-        </div>
-        <div class="snippets__section">
-          <h3 class="snippets__subtitle">Complete History</h3>
-          <p class="snippets__text">
-            Retrieve any snippets from the first moment you started using the
-            app.
-          </p>
+        <div class="snippets__sections">
+          <div class="snippets__section">
+            <h3 class="snippets__subtitle">Quick Search</h3>
+            <p class="snippets__section-text">
+              Easily search your snippets by content, category, web address,
+              application, and more.
+            </p>
+          </div>
+          <div class="snippets__section">
+            <h3 class="snippets__subtitle">iCloud Sync</h3>
+            <p class="snippets__section-text">
+              Instantly saves and syncs snippets across all your devices.
+            </p>
+          </div>
+          <div class="snippets__section">
+            <h3 class="snippets__subtitle">Complete History</h3>
+            <p class="snippets__section-text">
+              Retrieve any snippets from the first moment you started using the
+              app.
+            </p>
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="access container">
+    <div class="access mobile-container desk-container">
       <h2 class="access__title">Access Clipboard anywhere</h2>
       <div class="access__text">
         Whether you’re on the go, or at your computer, you can access all your
@@ -94,7 +100,7 @@
       />
     </div>
 
-    <div class="supercharge container">
+    <div class="supercharge mobile-container">
       <h2 class="supercharge__title">Supercharge your workflow</h2>
       <p class="supercharge__text">
         We’ve got the tools to boost your productivity.
@@ -137,7 +143,7 @@
       </div>
     </div>
 
-    <div class="companies container">
+    <div class="companies mobile-container">
       <img
         src="/images/logo-google.png"
         alt="Google logo"
@@ -161,7 +167,7 @@
       />
     </div>
 
-    <div class="clipboard container">
+    <div class="clipboard mobile-container desk-container">
       <h2 class="clipboard__title">Clipboard for iOS and Mac OS</h2>
       <p class="clipboard__text">
         Available for free on the App Store. Download for Mac or iOS, sync with
@@ -173,8 +179,8 @@
       </div>
     </div>
 
-    <footer class="footer container">
-      <div class="footer-content">
+    <footer class="footer">
+      <div class="footer-content mobile-container">
         <img
           src="/images/logo.svg"
           alt="Clipboard logo"

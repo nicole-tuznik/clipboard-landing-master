@@ -264,6 +264,70 @@ h3 {
   }
 
   .supercharge {
+    &__grid {
+      max-width: 600px;
+      margin: auto;
+    }
+  }
+
+  .companies {
+    &__logo {
+      width: 20%;
+    }
+  }
+
+  .clipboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+    margin-bottom: 9rem;
+
+    &__text {
+      font-size: 1.2rem;
+    }
+
+    &__buttons {
+      flex-direction: row;
+    }
+  }
+
+  .footer-content {
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    align-items: center;
+    text-align: left;
+    padding: 3rem 1.5rem;
+
+    &__logo {
+      width: 60px;
+      padding-bottom: 0;
+    }
+
+    &__links {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      row-gap: 1rem;
+    }
+
+    &__li {
+      padding: 0;
+    }
+
+    &__socials {
+      justify-self: end;
+    }
+
+    &__social {
+      padding: 0 0 0 1rem;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .supercharge {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -293,55 +357,6 @@ h3 {
     &__logo {
       width: 30%;
       padding: 0 2.5rem;
-    }
-  }
-
-  .clipboard {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 10rem;
-    margin-bottom: 9rem;
-
-    &__text {
-      font-size: 1.2rem;
-    }
-
-    &__buttons {
-      flex-direction: row;
-    }
-  }
-
-  .footer-content {
-    max-width: 1100px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    align-items: center;
-    text-align: left;
-    padding: 3rem 1rem;
-
-    &__logo {
-      width: 60px;
-      padding-bottom: 0;
-    }
-
-    &__links {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      row-gap: 1rem;
-    }
-
-    &__li {
-      padding: 0;
-    }
-
-    &__socials {
-      justify-self: end;
-    }
-
-    &__social {
-      padding: 0 0 0 1rem;
     }
   }
 }
